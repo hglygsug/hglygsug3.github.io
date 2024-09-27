@@ -118,10 +118,10 @@ figure.table-container {
     }
 
     ul {
-        order: 1;
+        order: 2;
     }
 
     figure.table-container {
-        order: 2;
+        order: 1;
     }
 }
