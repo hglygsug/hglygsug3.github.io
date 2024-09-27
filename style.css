@@ -96,13 +96,6 @@ div {
     flex-direction: column;
 }
 
-ul {
-    order: 2;
-}
-
-figure.table-container {
-    order: 1;
-}
 
 
 @media (min-width: 768px) {
@@ -117,11 +110,11 @@ figure.table-container {
         padding: 10px;
     }
 
+       figure.table-container {
+        order: 1;
+    }
+    
     ul {
         order: 2;
-    }
-
-    figure.table-container {
-        order: 1;
     }
 }
