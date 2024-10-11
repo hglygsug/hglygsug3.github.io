@@ -1,6 +1,7 @@
 @media screen () {
-   width:100% 
-    nav {
+ html{  width:100% 
+      }
+   nav {
         flex-direction: column;
         justify-content: center;
     }
