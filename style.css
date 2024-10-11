@@ -1,9 +1,22 @@
+@media screen (min-width: 100%) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    div#as11 {
+        order: -1;
+    }
+}
+
+
 header#q44 {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #dddddd;
+    float: right;
 }
 
 header#q44 img {
@@ -13,11 +26,13 @@ header#q44 img {
     height: 100px;
 }
 
-nav.menu p {
-    max-width: 960px;
+header#q44 h2 {
+        float: right;
+}
+
+nav {
     background-color: #ccc;
-    margin: 20px auto 0;
-    padding: 10px;
+    text-align: center;
 }
 
 h1 {
@@ -30,6 +45,7 @@ h2 {
 }
 
 div {
+    min-width:600px;
     max-width: 960px;
     background-color: #ccc;
     margin: 20px auto 0;
@@ -72,7 +88,7 @@ body {
     min-height: 100vh;
 }
 
-header, div, footer {
+header, footer {
     width: 100%;
     box-sizing: border-box;
 }
@@ -81,26 +97,4 @@ header, div, footer {
 div {
     display: flex;
     flex-direction: column;
-}
-
-@media (min-width: 768px) {
-    nav.menu p {
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    div {
-        border-image-outset:initial 0;
-        max-width: 960px;
-        margin: 20px auto;
-        padding: 10px;
-    }
-
-    ul {
-        order: 1;
-    }
-
-    figure.table-container {
-        order: 2;
-    }
 }
