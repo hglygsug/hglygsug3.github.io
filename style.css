@@ -8,8 +8,6 @@ nav {
         order: -1;
     }
 
-
-@media (deckstop) {
 header#q44 {
     list-style-type: none;
     margin: 0;
@@ -98,4 +96,4 @@ div {
     display: flex;
     flex-direction: column;
 }
-}
+
