@@ -1,7 +1,5 @@
-@media screen () {
- html{  width:100% 
-      }
-   nav {
+
+nav {
         flex-direction: column;
         justify-content: center;
     }
@@ -9,9 +7,9 @@
     div#as11 {
         order: -1;
     }
-}
 
 
+@media decstop {
 header#q44 {
     list-style-type: none;
     margin: 0;
@@ -99,4 +97,5 @@ header, footer {
 div {
     display: flex;
     flex-direction: column;
+}
 }
