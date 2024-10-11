@@ -9,7 +9,7 @@ nav {
     }
 
 
-@media decstop {
+@media (hover:hover) {
 header#q44 {
     list-style-type: none;
     margin: 0;
