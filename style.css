@@ -1,58 +1,34 @@
-@media screen and (orentation:portrait) {
 
-nav {
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    div#as11 {
-        order: -1;
-    }
-}
-header#q44 {
+header {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #dddddd;
     float: right;
+    order: -1;
 }
 
-header#q44 img {
-    float: left;
-    margin: 10px;
-    width: 100px;
-    height: 100px;
-}
+    header img {
+        float: left;
+        margin: 10px;
+    }
 
-header#q44 h2 {
+    header h2 {
         float: right;
-}
+    }
+
 
 nav {
+    flex-direction: column;
+    justify-content: center;
     background-color: #ccc;
     text-align: center;
+    order: -1;
 }
 
-h1 {
-    color: blue;
-}
-
-h2 {
-    background-color: #ddd;
-    padding: 10px;
-}
-
-div {
-    min-width:600px;
-    max-width: 960px;
-    background-color: #ccc;
-    margin: 20px auto 0;
-    padding: 10px;
-}
-
-ul li img {
-    width: 500px;
+.a2 {
+    order: -1;
 }
 
 table thead tr {
@@ -67,13 +43,31 @@ table tbody tr:nth-child(even) {
     background-color: red;
 }
 
+
+h1 {
+    color: #3b8de0;
+}
+
+h2 {
+    background-color: #ddd;
+}
+
+div {
+    width: 100%;
+    background-color: #ccc;
+    margin: 20px auto 0;
+}
+
+ul li img {
+    width: 100%;
+}
+
 img[usemap] {
-    width: 500px;
+    width: 100%;
 }
 
 footer {
     background-color: #777;
-    padding: 10px;
     text-align: center;
     color: white;
 }
