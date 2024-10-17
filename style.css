@@ -20,13 +20,14 @@ header {
 
 
 nav {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #ccc;
     text-align: center;
     order: -1;
-    height:20px;
-}  
+}
+
 
 .a2 {
     order: -1;
@@ -89,15 +90,14 @@ header, footer {
 
 
 div {
-    display: flex;
-    flex-direction: column;
+  
     width: 100%;
 }
 
 @media screen and (min-width: 800px) {
 
 
-    header#q44 {
+    header {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -106,14 +106,14 @@ div {
         float: right;
     }
 
-        header#q44 img {
+        header img {
             float: left;
             margin: 10px;
             width: 100px;
             height: 100px;
         }
 
-        header#q44 h2 {
+        header h2 {
             float: right;
         }
 
@@ -132,6 +132,7 @@ div {
     }
 
     div {
+        display: none;
         min-width: 600px;
         max-width: 960px;
         background-color: #ccc;
@@ -186,4 +187,3 @@ div {
         flex-direction: column;
     }
 }
-
