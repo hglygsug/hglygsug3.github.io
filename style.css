@@ -34,9 +34,7 @@ nav {
 }
 
 
-.a2 {
-    order: -1;
-}
+
 
 table thead tr {
     background-color: red;
@@ -126,7 +124,10 @@ div {
         background-color: #ccc;
         text-align: center;
     }
-
+    
+.a2 {
+    order: -1;
+}
     .a3 {
         display:block;
        
